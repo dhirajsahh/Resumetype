@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.container{
+    width: 70%;
+    background-color: aliceblue;
+    display: flex;
+}
+.leftcontainer{
+    width: 30%;
+    margin-left: 15px;
+    background-color: white;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.rightcontainer{
+    width: 70%;
+    margin-left: 10px;
+    
+}
+.imgbox{
+    position: relative;
+}
+.imgbox img{
+    width: 100%;
+
+}
+.heading{
+    position: absolute;
+    left: 5px;
+    top: 130px;
+    color: bisque;
+}
+.icontext{
+    margin-top: 7px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.text-icon{
+    display: flex;
+    gap: 10px;
+}
+.bold{
+    font-weight: bold;
+}
+i{
+    color: rgba(47, 255, 78, 0.731);
+}
+.skillsection{
+    margin-top: 30px;
+    
+    
+  
+}
+.skillheading{
+    display: flex;
+    gap: 10px;
+}
+.originalcontainer{
+    background-color: antiquewhite;
+    width: 100%;
+    border-radius: 8px;
+}
+.percentagecontainer{
+    width: 90%;
+background-color: aqua;
+border-radius: 8px;
+}
+.originalcontainer p{
+    text-align: center;
+}
+.skillsection{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.percentagecontainer-css{
+    width: 75%;
+background-color: aqua;
+border-radius: 8px;
+}
+.percentagecontainer-clanguage{
+    width: 60%;
+    background-color: aqua;
+    border-radius: 8px;  
+}
+.percentagecontainer-js{
+    width: 40%;
+    background-color: aqua;
+    border-radius: 8px; 
+}
+.languageheading{
+    display: flex;
+    gap: 10px;
+}
+.linegraph{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.language-section{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.percentagecontainer-maithili{
+    width: 95%;
+    background-color: aqua;
+    border-radius: 8px;  
+}
+.percentagecontainer-Nepali{
+    width: 90%;
+    background-color: aqua;
+    border-radius: 8px;  
+}
+.percentagecontainer-English{
+    width: 80%;
+    background-color: aqua;
+    border-radius: 8px;  
+}
+.percentagecontainer-Hindi{
+    width: 75%;
+    background-color: aqua;
+    border-radius: 8px;  
+}
+.educationsection{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin-right: 12px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.workheading{
+    display: flex;
+    gap: 12px;
+}
+.worktittle{
+    font-size: 2rem;
+}
+.worksection{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    background-color: white;
+    margin-right: 12px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+.work-place{
+    color: grey;
+    font-size: 1.3rem;
+}
+.fronted{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.educationtitle{
+    font-size: 2rem;
+    margin-bottom: 15px;
+
+}
+.dateandicon{
+    display: flex;
+    gap: 10px;
+    
+}
+.dateandicon p{
+    color: rgba(47, 255, 78, 0.731);
+}
+button{
+    color: white;
+   background-color: rgba(47, 255, 78, 0.731);
+   padding: 2px;
+   border: none;
+}
+.educationpart{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+   
+ 
+}
+.educationpart1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.educationheading{
+    display: flex;
+}
